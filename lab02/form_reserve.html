@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <h3>Hotel Booking</h3>
+            </th>
+        </tr>
+        <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/632/88726059/lab02/afile.php">
+            <tr>
+                <td><label for="roomtype">Room Type</label><br></td>
+                <td><select name="roomtype">
+                        <option value="0">Please Select</option>
+                        <option value="1">Standard</option>
+                        <option value="2">Luxury</option>
+                        <option value="3">Deluxe</option>
+                <td></select></td>
+            </tr>
+            <tr>
+                <td><label for="numguest">Number of Guests</label><br></td>
+                <td><select name="numguest">
+                        <option value="0">Please Select</option>
+                        <option value="1-2">1-2</option>
+                        <option value="3-4">3-4</option>
+                        <option value="5-6">5-6</option>
+                        <option value="7-8">7-8</option>
+                <td></select></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label><br></td>
+                <td>
+                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="lname" id="lname">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label><br></td>
+                <td>
+                    <input type="text" name="Email" id="Email">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="arrivaldate">Arrival:</label><br></td>
+                <td><input name="arrivaldate" type="date" required class="form-control" id="arrivaldate" />
+                    <select name="arrivaltime" id="arrivaltime" required="required" class="form-control">
+                        <option value="">hh : mm</option>
+                        <option value="8:30">8:30</option>
+                        <option value="9:00">9:00</option>
+                        <option value="9:30">9:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:30">15:30</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:30">17:30</option>
+                        <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <td><label for="Departuredate">Departure</label><br></td>
+                <td><input name="Departuredate" type="date" required class="form-control" id="Departuredate" />
+                    <select name="Departuretime" id="Departuretime" required="required" class="form-control">
+                        <option value="">hh : mm</option>
+                        <option value="8:30">8:30</option>
+                        <option value="9:00">9:00</option>
+                        <option value="9:30">9:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:30">15:30</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:30">17:30</option>
+                        <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <td><label for="pickup">Free Pickup</label><br></td>
+                <td>
+                    <input type="radio" name="pickup" id="pickup" value="Yes">Yes, Sure!<br>
+                    <input type="radio" name="pickup" id="pickup" value="No">No, I already rented a car.
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="flightnum">Flight Number</label><br></td>
+                <td><input type="flightnum" name="flightnum" id="flightnum"></td>
+
+            </tr>
+            <tr>
+                <td>Other requests<br></td>
+                <td><Textarea name="otherreq" id="otherreq" rows="5" cols="50"></Textarea></td>
+
+            </tr>
+            <tr>
+                <td>
+                <td><input type="submit" value="Complete Reservation"></td>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>

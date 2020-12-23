@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Sum</title>
+    <h2 align=center>โปรแกรมบวกสะสม</h2>
+    <script>
+        function summary(){
+          sum = document.getElementById('sum').innerHTML=""
+          num1 = document.getElementById('num1')
+          num2 = document.getElementById('num2')
+          sum = document.getElementById('sum')
+          sumall = document.getElementById('sumall')
+          t = 0
+          
+        for ( i = parseInt(num1.value);i<=parseInt(num2.value);i++) {
+            t = t+i
+            sumall.innerHTML=t
+
+        sum.innerHTML +=i
+        if(i<parseInt(num2.value)){
+            
+            sum.innerHTML += " + "
+        }
+        if(i==parseInt(num2.value)){
+            sum.innerHTML += " = "
+        }
+  
+        }
+    
+    }
+    </script>
+</head>
+<body align=center>
+            <input type="text" placeholder="num1" id="num1"> -  
+            <input type="text" placeholder="num2" id="num2">
+            <button onclick="summary()">คำนวน</button>
+            <div id="sum"></div>
+            <div id="sumall"></div>
+            
+</body>
+</html>

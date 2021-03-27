@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "name": "B:Complete",
+            "des": "Debut album",
+            "img": "bcomplete.png",
+            "artistName": "AB6IX",
+            "price": 450
+        },
+        {
+            "name": "6ixsense",
+            "des": "6IXENSE album",
+            "img": "6IXENSE.jpg",
+            "artistName": "AB6IX",
+            "price": 500
+        },
+        {
+            "name": "Vivid",
+            "des": "Vivid album",
+            "img": "vivid.jpg",
+            "artistName": "AB6IX",
+            "price": 450
+        },
+        {
+            "name": "Salute",
+            "des": "SALUTE album",
+            "img": "SALUTE.jpg",
+            "artistName": "AB6IX",
+            "price": 550
+        },
+        {
+            "name": "Anewhope",
+            "des": "ANEW_Hope album",
+            "img": "Anewhope.jpg",
+            "artistName": "AB6IX",
+            "price": 550
+        }
+    ]
+}
